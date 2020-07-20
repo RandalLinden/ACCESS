@@ -1,5 +1,5 @@
 @database ACCESS.guide
-@rem $VER:XHelpGuide 3.1 © 1993-1994 Randy Linden
+@rem $VER:XHelpGuide 3.1 © 1993-1995 Randy Linden
 @wordwrap
 @index INDEX
 
@@ -10,7 +10,7 @@
 @{b}@{u}A C C E S S   D E V E L O P M E N T   S Y S T E M   3 . 0@{ub}@{uu}
 
 
-@{b}@{u}Copyright © 1986-1994 Randy Linden@{ub}@{uu}
+@{b}@{u}Copyright © 1986-1995 Randy Linden@{ub}@{uu}
 
 
 @{" Assembler " link XA}
@@ -604,6 +604,8 @@ The order of Expression Evaluation is as follows:
 
   @{" IMAGE " link IMAGE}              Import a binary data file
 
+  @{" LTEXT " link LTEXT}              Evaluates Text Expression at LinkTime
+
   @{" MMU " link MMU}                Define Target MMU
 
   @{" PLIST " link PLIST}              Change PrintListing control
@@ -613,6 +615,8 @@ The order of Expression Evaluation is as follows:
   @{" SCROLL " link SCROLL}             Define Horizontal/Vertical Scroll
 
   @{" SECTION " link SECTION}            Define/Use Section
+
+  @{" TEXT " link TEXT}               Evaluates Text Expression
 
 
   @{" DC.B   BYTE " link BYTE}        Inserts Bytes into code/data block
@@ -652,6 +656,8 @@ The order of Expression Evaluation is as follows:
 
   @{" IMAGE " link IMAGE}              Import a binary data file
 
+  @{" LTEXT " link LTEXT}              Evaluates Text Expression at LinkTime
+
   @{" MMU " link MMU}                Define Target MMU
 
   @{" MODE " link MODE}               Define Target CPU Mode
@@ -667,6 +673,8 @@ The order of Expression Evaluation is as follows:
   @{" SCROLL " link SCROLL}             Define Horizontal/Vertical Scroll
 
   @{" SECTION " link SECTION}            Define/Use Section
+
+  @{" TEXT " link TEXT}               Evaluates Text Expression
 
 
   @{" DC.1    DC.B   BYTE " link BYTE}               Inserts Bytes into code/data block
@@ -704,6 +712,8 @@ The order of Expression Evaluation is as follows:
 
   @{" IMAGE " link IMAGE}              Import a binary data file
 
+  @{" LTEXT " link LTEXT}              Evaluates Text Expression at LinkTime
+
   @{" MMU " link MMU}                Define Target MMU
 
   @{" PLIST " link PLIST}              Change PrintListing control
@@ -713,6 +723,8 @@ The order of Expression Evaluation is as follows:
   @{" SCROLL " link SCROLL}             Define Horizontal/Vertical Scroll
 
   @{" SECTION " link SECTION}            Define/Use Section
+
+  @{" TEXT " link TEXT}               Evaluates Text Expression
 
 
   @{" DC.B   BYTE " link BYTE}        Inserts Bytes into code/data block
@@ -744,6 +756,8 @@ The order of Expression Evaluation is as follows:
 
   @{" IMAGE " link IMAGE}              Import a binary data file
 
+  @{" LTEXT " link LTEXT}              Evaluates Text Expression at LinkTime
+
   @{" MMU " link MMU}                Define Target MMU
 
   @{" REORG " link REORG}              Revert to previous Origin
@@ -751,6 +765,8 @@ The order of Expression Evaluation is as follows:
   @{" PLIST " link PLIST}              Change PrintListing control
 
   @{" SECTION " link SECTION}            Define/Use Section
+
+  @{" TEXT " link TEXT}               Evaluates Text Expression
 
 
   @{" DC.1    DC.B   BYTE " link BYTE}               Inserts Bytes into code/data block

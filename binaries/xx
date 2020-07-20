@@ -1,11 +1,11 @@
 .key xx
 .bra {
 .ket }
-;$VER:XVersionList 3.1 © 1993-1994 Randy Linden
+;$VER:XVersionList 3.1 © 1993-1995 Randy Linden
 FailAt 21
 
 Echo "ACCESS System Software Version 3.0"
-Echo "Copyright © 1986-1994 Randy Linden"
+Echo "Copyright © 1986-1995 Randy Linden"
 Echo "----------------------------------"
 list files >t:q{$$} ACCESS:#? lformat="XV %s%s"
 IF NOT FAIL
@@ -15,7 +15,7 @@ ENDIF
 
 Echo ""
 Echo "ACCESS XSLV Monitor Software Version 3.0"
-Echo "Copyright © 1986-1994 Randy Linden"
+Echo "Copyright © 1986-1995 Randy Linden"
 Echo "----------------------------------------"
 list files >t:q{$$} ACCESS:XSLV/#? lformat="XV %s%s"
 IF NOT FAIL
